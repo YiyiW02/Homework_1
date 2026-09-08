@@ -1,0 +1,8 @@
+---
+title: "Homework1"
+author: "Yiyi Wang"
+format: html
+editor: visual
+---
+
+This is the link to the repo: https://github.com/YiyiW02/Homework_1.git
