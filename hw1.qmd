@@ -311,9 +311,10 @@ The final sample size is 29523 observations.
 Problem 3: (a)
 
 ```{r}
-# nextHappy() computes the next value in a happy-number sequence.
-# Input: n, a single positive integer.
-# Output: the sum of the squares of the digits of n.
+#' Calculate the next value in a happy-number sequence
+#'
+#' @param n A single positive integer.
+#' @return A positive integer equal to the sum of the squares of the digits of n.
 
 nextHappy <- function(n) {
   if (
@@ -342,11 +343,12 @@ The function reproduces the provided examples: nextHappy(19) returns 82 and next
 (b) 
 
 ```{r}
-# happySequence() generates the happy-number sequence starting from n.
-# Input: n, a single positive integer.
-# Output: a list containing:
-# sequence: the generated values starting at n;
-# isHappy: TRUE if the sequence reaches 1, FALSE if it enters a cycle.
+#' Generate a happy-number sequence
+#'
+#' @param n A single positive integer.
+#' @return A list containing:
+#'   sequence, the generated sequence starting at n;
+#'   isHappy, TRUE if the sequence reaches 1 and FALSE otherwise.
 
 happySequence <- function(n) {
   if (
